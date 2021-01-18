@@ -1,0 +1,61 @@
+h1 {
+    color: orange;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 2px 2px #000000;
+}
+body {
+    background-image: url("https://wallpaperaccess.com/full/1480234.jpg");
+    /* background-position: center ; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: orangered;
+    text-align: center;
+}
+h2 {
+  padding-top: 50px;
+  text-shadow: 2px 2px #000000;
+}
+
+.rules {
+  /* border: 2px dotted blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(218,223,225, 0.5);
+  color: black;
+}
+
+li {
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table, th, td {
+  border: 3px solid black;
+  border-collapse: collapse;
+  padding: 40px;
+  background-color: rgba(218,223,225, 1);
+}
+
+footer {
+  text-shadow: 1px 1px #000000;
+  font-size: large;
+  background-color: rgba(15, 21, 24, 0.747);
+}
+
+.button {
+  background-color: black; /* Green */
+  border: 2px solid grey;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
